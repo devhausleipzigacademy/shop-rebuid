@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <div id="logo"></div>
+      </div>
+      <nav id="main-nav">
+        <a href="#">Women</a>
+        <a href="#">Men</a>
+        <a href="#">Company</a>
+        <a href="#">Store</a>
+      </nav>
+      <nav id="side-nav">
+        <a href="">Search</a>
+        <a href="">Help</a>
+        <div class="cart-container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="shopping-bag"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+            />
+          </svg>
+          <span id="cart-item-count">0</span>
+        </div>
+      </nav>
+      <div class="menu-container">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="hamburger-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+      </div>
+    </header>
+    <section id="hero">
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <h2>New arrivals are here</h2>
+        <p>
+          The new arrivals have, well, newly arrived. Check out the latest
+          options from our summer small-batch release while they’re still in
+          stock
+        </p>
+        <button>Shop new arrivals</button>
+      </div>
+    </section>
+    <section id="products">
+      <div class="headline">
+        <h3>Trending products</h3>
+        <a href="#" class="collection-link">
+          <span>Shop the collection</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="arrow-icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+            />
+          </svg>
+        </a>
+      </div>
+      <div class="product-cards">
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1511556820780-d912e42b4980?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZmFzaGlvbiUyMHByb2R1Y3R8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+            alt=""
+          />
+          <h4>Mens Ensemble</h4>
+          <span>Business Casual</span>
+          <span class="price">$240</span>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZmFzaGlvbiUyMHByb2R1Y3R8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+            alt=""
+          />
+          <h4>Mens Ensemble</h4>
+          <span>Business Casual</span>
+          <span class="price">$240</span>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1509695507497-903c140c43b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZmFzaGlvbiUyMHByb2R1Y3R8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+            alt=""
+          />
+          <h4>Mens Ensemble</h4>
+          <span>Business Casual</span>
+          <span class="price">$240</span>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1590739225287-bd31519780c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGZhc2hpb24lMjBwcm9kdWN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+            alt=""
+          />
+          <h4>Mens Ensemble</h4>
+          <span>Business Casual</span>
+          <span class="price">$240</span>
+        </div>
+      </div>
+    </section>
+    <section id="features">
+      <div class="feature">
+        <img src="/feature-1.png" alt="" />
+        <h4>Free returns</h4>
+        <p>
+          Not what you expected? Place it back in the parcel and attach the
+          pre-paid postage stamp.
+        </p>
+      </div>
+      <div class="feature">
+        <img src="/feature-2.png" alt="" />
+        <h4>Same day delivery</h4>
+        <p>
+          We offer a delivery service that was never been done before. Checkout
+          today and receive your products within hours.
+        </p>
+      </div>
+      <div class="feature">
+        <img src="/feature-3.png" alt="" />
+        <h4>For the planet</h4>
+        <p>
+          We’ve pledged 1% of sales to the preservation and restoration of the
+          natural environment.
+        </p>
+      </div>
+    </section>
+    <footer>
+      <section>
+        <nav>
+          <h5>Products</h5>
+          <a href="#">Bags</a>
+          <a href="#">Tees</a>
+          <a href="#">Shoes</a>
+          <a href="#">Objects</a>
+          <a href="#">Home goods</a>
+          <a href="#">Accesoires</a>
+        </nav>
+        <nav>
+          <h5>Company</h5>
+          <a href="#">Who we are</a>
+          <a href="#">Sustainability</a>
+          <a href="#">Press</a>
+          <a href="#">Careers</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Privacy</a>
+        </nav>
+        <nav>
+          <h5>Customer service</h5>
+          <a href="#">Contact</a>
+          <a href="#">Shipping</a>
+          <a href="#">Returns</a>
+          <a href="#">Warranty</a>
+          <a href="#">Secure payments</a>
+          <a href="#">FAQ</a>
+          <a href="#">Find a store</a>
+        </nav>
+        <div class="newsletter">
+          <h5>Sign up for our newsletter</h5>
+          <p>The latest deals and savings, sent to your inbox weekly</p>
+          <div class="signup">
+            <input type="text" placeholder="your@email.com" />
+            <button>Sign up</button>
+          </div>
+        </div>
+      </section>
+      <section></section>
+    </footer>
+  </body>
+</html>
